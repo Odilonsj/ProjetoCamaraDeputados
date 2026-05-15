@@ -1,4 +1,3 @@
-readme_content = """
 # Projeto Tiller - Eventos Legislativos
 
 Este projeto tem como objetivo construir um pipeline de dados para análise de eventos legislativos da Câmara dos Deputados, utilizando Databricks e Spark.
@@ -55,12 +54,3 @@ Este projeto tem como objetivo construir um pipeline de dados para análise de e
 1. Clone o repositório e abra os notebooks no Databricks.
 2. Execute as células sequencialmente, garantindo que as tabelas intermediárias sejam criadas.
 3. O arquivo final estará disponível como tabela Delta `gold_eventos_legislativos`.
-
-## Contato
-
-Dúvidas ou sugestões? Entre em contato com o responsável pelo projeto.
-
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
